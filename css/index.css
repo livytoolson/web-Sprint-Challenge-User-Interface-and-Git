@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display:flex;
+    justify-content:space-evenly;
+    padding:.8rem;
+  }
+
+  header img{
+      width:10%;
+  }
+
+nav{
+    width:25%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+nav a{
+    text-align:center;
+    border-radius:10px;
+    padding:1% 0;
+    margin: 0 auto;
+  }
+
+.hero-image{
+      height:27vh;
+      background-size:cover;
+      background-repeat:no-repeat;
+      text-align:center;
+  }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +141,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color:teal;
+}
+
+#box2{
+    background-color:gold;
+}
+
+#box3{
+    background-color:cadetblue;
+}
+
+#box4{
+    background-color:coral;
+}
+
+#box5{
+    background-color:crimson;
+}
+
+#box6{
+    background-color:forestgreen;
+}
+
+#box7{
+    background-color:darkorchid;
+}
+
+#box8{
+    background-color:hotpink;
+}
+
+#box9{
+    background-color:indigo;
+}
+
+#box10{
+    background-color:dodgerblue;
 }
 
 .bottom-content {
