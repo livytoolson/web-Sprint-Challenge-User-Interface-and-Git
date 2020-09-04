@@ -215,3 +215,60 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page Styling*/
+body .containerAbout{
+    margin: 0 auto;
+    padding: 0 22%;
+}
+
+body .containerAbout .introContent{
+    border-bottom: 2px dotted #000;
+    padding-bottom: 2%;
+}
+
+body .containerAbout .flexContentOne .one, body .containerAbout .flexContentOne .two, 
+body .containerAbout .flexContentTwo .three, body .containerAbout .flexContentTwo .four{
+    width:50%;
+    margin: 0 auto;
+}
+
+body .containerAbout .flexContentOne{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 2px dotted #000;
+}
+
+body .containerAbout .flexContentTwo{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 2px dotted #000;
+}
+
+body .containerAbout .flexContentOne .one p, body .containerAbout .flexContentOne .two p,
+body .containerAbout .flexContentTwo .three p, body .containerAbout .flexContentTwo .four p{
+    padding-bottom: 4%;
+}
+
+body .containerAbout .flexContentOne .one h2, body .containerAbout .flexContentOne .two h2,
+body .containerAbout .flexContentTwo .three h2, body .containerAbout .flexContentTwo .four h2{
+    padding-top: 1rem;
+}
+
+body .containerAbout .flexContentOne .one a, body .containerAbout .flexContentOne .two a,
+body .containerAbout .flexContentTwo .three a, body .containerAbout .flexContentTwo .four a{
+    border:1px solid black;
+    border-radius:25%;
+    padding: .25rem 1rem;
+}
+
+body .containerAbout .endContent{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
